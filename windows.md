@@ -1,4 +1,11 @@
 # Powershell
+
+List folder contents
+
+```
+ls | % Name
+```
+
 Get size of folder contents (recursive)
 
 ```
