@@ -8,5 +8,5 @@ ls -r | measure -s Length
 Get number of files in folder
 
 ```
-Write-Host ( Get-ChildItem . | Measure-Object ).Count
+( Get-ChildItem . | Measure-Object ).Count
 ```
