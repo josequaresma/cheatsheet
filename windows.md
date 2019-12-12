@@ -10,3 +10,9 @@ Get number of files in folder
 ```
 ( Get-ChildItem . | Measure-Object ).Count
 ```
+
+Get date
+
+```
+Get-Date -Format G
+```
